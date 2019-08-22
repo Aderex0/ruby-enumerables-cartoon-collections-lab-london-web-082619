@@ -12,7 +12,6 @@ end
 def summon_captain_planet(calls_array)
   calls_array.any? do |call|
     if call.length > 4
-      true
     end
   end
 end
