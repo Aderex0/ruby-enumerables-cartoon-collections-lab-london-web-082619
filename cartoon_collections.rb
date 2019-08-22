@@ -9,7 +9,13 @@ def summon_captain_planet(calls_array)
   calls_array.map { |call| call.capitalize + "!"}
 end
 
-
+def summon_captain_planet(calls_array)
+  calls_array.any? do |call|
+    if call.length > 4
+      true
+    end
+  end
+end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
